@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="styles/style.css"
+      rel="stylesheet"
+    />
+    <title>Home | Property Net</title>
+  </head>
+  <body>
+    <main>
+      <div class="row mx-0">
+        <!-- Sidebar Start -->
+        <div id="sideLeft" class="col-3 col-md-2 col-xs-1 px-0">
+          <div
+            class="d-flex flex-column flex-shrink-0 py-4"
+            style="min-height: 100%; background-color: #11369c"
+          >
+            <a href="/" class="mx-auto d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none pb-4">
+              <span class="d-lg-block d-none"
+                ><img src="assets/icons/Logo-Side-menu.svg" alt=""
+              /></span>
+              <span class="d-lg-none d-block">
+                <img src="assets/icons/logo.svg" alt=""/>
+              </span>
+            </a>
+            <ul class="nav nav-pills flex-column mb-auto px-3">
+              <li class="nav-item me-auto">
+                <a
+                  href="#"
+                  class="nav-link text-white mx-auto"
+                  aria-current="page"
+                  style="font-size: 18px"
+                >
+                  <img
+                    src="assets/icons/bold.svg"
+                    class="bi pe-none me-2"
+                    width="20"
+                    height="20"
+                  />
+                  <span class="d-lg-inline d-none">Home</span>
+                </a>
+              </li>
+              <li class="nav-item me-auto">
+                <a href="#" class="nav-link text-white mx-auto" style="font-size: 18px">
+                  <img
+                    src="assets/icons/chart-linear.svg"
+                    class="bi pe-none me-2"
+                    width="20"
+                    height="20"
+                  />
+                  <span class="d-lg-inline d-none">Dashboard</span>
+                </a>
+              </li>
+              <li class="nav-item me-auto">
+                <a href="#" class="nav-link text-white mx-auto" style="font-size: 18px">
+                  <img
+                    src="assets/icons/notification-status-linear.svg"
+                    class="bi pe-none me-2"
+                    width="20"
+                    height="20"
+                  />
+                  <span class="d-lg-inline d-none">Updates</span>
+                </a>
+              </li>
+              <li class="nav-item me-auto">
+                <a href="#" class="nav-link text-white mx-auto" style="font-size: 18px">
+                  <img
+                    src="assets/icons/document-copy-linear.svg"
+                    class="bi pe-none me-2"
+                    width="20"
+                    height="20"
+                  />
+                  <span class="d-lg-inline d-none">Reports</span>
+                </a>
+              </li>
+              <li class="nav-item me-auto">
+                <a href="#" class="nav-link text-white mx-auto" style="font-size: 18px">
+                  <img
+                    src="assets/icons/buildings-linear.svg"
+                    class="bi pe-none me-2"
+                    width="20"
+                    height="20"
+                  />
+                  <span class="d-lg-inline  d-none">Avilable Units</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Sidebar End -->
+        <!-- --------------------------------------------------------------- -->
+        <!-- Navbar & Content Start -->
+        <div id="body" class="col-9 col-md-10 col-xs-11 px-0">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-light border-bottom">
+            <div class="container-fluid">
+              <a class="navbar-brand col-4 col-lg-2" href="#"
+                ><img src="assets/icons/Noroeste.svg" alt="" /> Noroeste</a
+              >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="true"
+                aria-label="Toggle navigation"
+              >
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <div class="nav-item ms-5 me-2">
+                    <span class="nav-link"
+                      >Country
+                      <div class="dropdown d-inline-block">
+                        <button
+                          class="btn btn-primary opacity-25 dropdown-toggle"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Saudi Arabia
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                          <li>
+                            <a class="dropdown-item active" href="#"
+                              >Saudi Arabia</a
+                            >
+                          </li>
+                          <li><a class="dropdown-item" href="#">Egypt</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Morocco</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="nav-item mx-2">
+                    <span class="nav-link"
+                      >Company
+                      <div class="dropdown d-inline-block">
+                        <button
+                          class="btn btn-primary opacity-25 dropdown-toggle"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Real State
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                          <li>
+                            <a class="dropdown-item active" href="#"
+                              >Real State</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Bold Reality</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Fortune Team</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </span>
+                  </div>
+
+                  <div class="d-flex justify-content-between">
+                    <div class="nav-item pt-2 ms-5 me-3">
+                      <div class="dropdown">
+                        <a
+                          href="#"
+                          class="d-flex align-items-center text-dark text-decoration-none border border-dark-subtle rounded-circle p-2"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <img
+                            src="assets/icons/CIRCLE_2_.svg"
+                            alt=""
+                            width="24"
+                            height="24"
+                          />
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="nav-item pt-2 me-3">
+                      <div class="dropdown">
+                        <a
+                          href="#"
+                          class="d-flex align-items-center text-dark text-decoration-none border border-dark-subtle rounded-circle p-2"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <img
+                            src="assets/icons/linear.svg"
+                            alt=""
+                            width="24"
+                            height="24"
+                          />
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="nav-item pt-2 me-3">
+                      <div class="dropdown">
+                        <a
+                          href="#"
+                          class="d-flex align-items-center text-dark text-decoration-none border border-dark-subtle rounded-circle p-2"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <img
+                            src="assets/icons/Site.svg"
+                            alt=""
+                            width="24"
+                            height="24"
+                          />
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="nav-item pt-2 me-3">
+                      <div class="dropdown">
+                        <a
+                          href="#"
+                          class="d-flex align-items-center text-dark text-decoration-none dropdown-toggle"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <img
+                            src="https://github.com/mdo.png"
+                            alt=""
+                            width="42"
+                            height="42"
+                            class="border border-primary rounded-circle rounded-circle me-2"
+                          />
+                          <div>
+                            <p class="d-block mb-0" style="font-size: 14px">
+                              Mohamed
+                            </p>
+                            <p
+                              class="d-block mb-0 text-body-tertiary"
+                              style="font-size: 12px"
+                            >
+                              Owner
+                            </p>
+                          </div>
+                        </a>
+                        <ul
+                          class="dropdown-menu dropdown-menu-light text-small shadow"
+                        >
+                          <li>
+                            <a
+                              href="#"
+                              class="dropdown-item d-flex align-items-center text-dark text-decoration-none dropdown-toggle"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              <img
+                                src="https://github.com/mdo.png"
+                                alt=""
+                                width="42"
+                                height="42"
+                                class="border border-primary rounded-circle rounded-circle me-2"
+                              />
+                              <div>
+                                <p class="d-block mb-0" style="font-size: 14px">
+                                  Mohamed
+                                </p>
+                                <p
+                                  class="d-block mb-0 text-body-tertiary"
+                                  style="font-size: 12px"
+                                >
+                                  Owner
+                                </p>
+                              </div>
+                            </a>
+                          </li>
+                          <li
+                            class="mx-2 my-1 border rounded border-primary-subtle"
+                          >
+                            <a
+                              class="dropdown-item text-primary-emphasis opacity-75 text-center"
+                              >View Profile</a
+                            >
+                          </li>
+                          <li><hr class="dropdown-divider" /></li>
+                          <li>
+                            <a
+                              class="dropdown-item text-body-tertiary text-left"
+                              style="font-size: 12px"
+                              href="#"
+                            >
+                              <img
+                                src="assets/icons/vuesax-linear-profile.svg"
+                                alt=""
+                                class="me-2"
+                              />
+                              Personal Info
+                            </a>
+                          </li>
+                          <li class="d-flex">
+                            <a
+                              class="dropdown-item text-body-tertiary text-left order-0"
+                              style="font-size: 12px"
+                              href="#"
+                            >
+                              <img
+                                src="assets/icons/765894-200.png"
+                                width="24"
+                                height="24"
+                                class="me-2"
+                              />
+                              Dark Theme
+                            </a>
+                            <div class="form-check form-switch order-3 pt-1">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                role="switch"
+                                id="flexSwitchCheckDefault"
+                              />
+                            </div>
+                          </li>
+                          <li><hr class="dropdown-divider" /></li>
+                          <li>
+                            <a class="dropdown-item text-body-tertiary" href="#"
+                              >Log out</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="nav-item pt-2 ms-5">
+                      <div class="dropdown">
+                        <a
+                          href="#"
+                          class="d-flex align-items-center text-dark text-decoration-none p-2"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <img
+                            src="assets/icons/Flag.svg"
+                            alt=""
+                            width="24"
+                            height="24"
+                            class=""
+                          />
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="nav-item pt-2">
+                      <div class="dropdown">
+                        <a
+                          href="#"
+                          class="d-flex align-items-center text-light-emphasis text-decoration-none p-2"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          |
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="nav-item pt-2 me-3">
+                      <div class="dropdown">
+                        <a
+                          href="#"
+                          class="d-flex align-items-center text-dark text-decoration-none border border-danger-subtle rounded-circle p-2"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <img
+                            src="assets/icons/Log-out.svg"
+                            alt=""
+                            width="24"
+                            height="24"
+                            class=""
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+        <!-- Content Start -->
+        <!-- 1st Content Start -->
+        <nav class="navbar navbar-expand bg-body-tertiary border-bottom">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link " href="#">Building statistics</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contracts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Quotations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Vacating requests</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Maintenance requests</a>
+                </li>
+            </div>
+          </div>
+        </nav>
+        <!-- 1st Content End -->
+        <!-- 2nd Content Start -->
+        <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-xs-1 g-3 m-2">
+          <div class="col-3">
+            <div class="card py-3" style="min-height: 250px;">
+              <div class="me-auto">
+                  <span class="fs-6 position-absolute rounded-2 p-1 top-50 translate-middle-y" style="left: 10%;">
+                  <img src="assets/icons/vuesax-bold-gallery.png" alt="" class="p-2 rounded-4 me-2" style="background-color: #11369C;">
+                  Total requests
+                </span>
+                </div>
+              <div class="ms-auto me-5 text-center">
+                <p class="mb-1 mt-5 mb-0" style="font-size: 3rem;">52</p>
+                <p class="fs-6 ms-2 px-1 rounded-1 me-2" style="background-color: #11369C;">Request</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card py-3" style="min-height: 250px;">
+              <div class="d-flex justify-content-between align-items-center">
+                  <span class="ms-3">
+                    <img src="assets/icons/vuesax-bold-document-text.svg" alt="" class="p-1 rounded-4 me-2" style="background-color: #FE452D0F;">
+                    Rejected
+                  </span>
+                  <div class="me-3 d-flex align-items-center">
+                    <img src="assets/icons/Mask-Group-674.svg" alt="">
+                    <span class="ms-1">YTD</span>
+                    <span class="fs-1 ms-2">2</span>
+                  </div>
+              </div>
+
+              <hr class="mx-4">
+
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="ms-3">
+                  <img src="assets/icons/moneys-bold.svg" alt="" class="p-1 rounded-4 me-2" style="background-color: #11369C0F;">
+                  Rent Amount
+                </span>
+                <div class="me-3 d-flex align-items-center">
+                  <span class="ms-1">365,145,101</span>
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="ms-3">
+                  <img src="assets/icons/maximize-4-bold.svg" alt="" class="p-1 rounded-4 me-2" style="background-color: #11369C0F;">
+                  Total Area
+                </span>
+                <div class="me-3 d-flex align-items-center">
+                  <span class="ms-1">19.2</span>
+                </div>
+              </div>
+
+              <div class="ms-auto me-5 text-center">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card py-3" style="min-height: 250px;">
+              <div class="d-flex justify-content-between align-items-center">
+                  <span class="ms-3">
+                    <img src="assets/icons/vuesax-bold-document-text.svg" alt="" class="p-1 rounded-4 me-2" style="background-color: #FE452D0F;">
+                    Rejected
+                  </span>
+                  <div class="me-3 d-flex align-items-center">
+                    <img src="assets/icons/Mask-Group-674.svg" alt="">
+                    <span class="ms-1">YTD</span>
+                    <span class="fs-1 ms-2">2</span>
+                  </div>
+              </div>
+
+              <hr class="mx-4">
+
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="ms-3">
+                  <img src="assets/icons/moneys-bold.svg" alt="" class="p-1 rounded-4 me-2" style="background-color: #11369C0F;">
+                  Rent Amount
+                </span>
+                <div class="me-3 d-flex align-items-center">
+                  <span class="ms-1">365,145,101</span>
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="ms-3">
+                  <img src="assets/icons/maximize-4-bold.svg" alt="" class="p-1 rounded-4 me-2" style="background-color: #11369C0F;">
+                  Total Area
+                </span>
+                <div class="me-3 d-flex align-items-center">
+                  <span class="ms-1">19.2</span>
+                </div>
+              </div>
+
+              <div class="ms-auto me-5 text-center">
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card py-3" style="min-height: 250px;">
+              <div class="d-flex justify-content-between align-items-center">
+                  <span class="ms-3">
+                    <img src="assets/icons/vuesax-bold-document-text.svg" alt="" class="p-1 rounded-4 me-2" style="background-color: #FE452D0F;">
+                    Rejected
+                  </span>
+                  <div class="me-3 d-flex align-items-center">
+                    <img src="assets/icons/Mask-Group-674.svg" alt="">
+                    <span class="ms-1">YTD</span>
+                    <span class="fs-1 ms-2">2</span>
+                  </div>
+              </div>
+
+              <hr class="mx-4">
+
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="ms-3">
+                  <img src="assets/icons/moneys-bold.svg" alt="" class="p-1 rounded-4 me-2" style="background-color: #11369C0F;">
+                  Rent Amount
+                </span>
+                <div class="me-3 d-flex align-items-center">
+                  <span class="ms-1">365,145,101</span>
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="ms-3">
+                  <img src="assets/icons/maximize-4-bold.svg" alt="" class="p-1 rounded-4 me-2" style="background-color: #11369C0F;">
+                  Total Area
+                </span>
+                <div class="me-3 d-flex align-items-center">
+                  <span class="ms-1">19.2</span>
+                </div>
+              </div>
+
+              <div class="ms-auto me-5 text-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>  
+        <!-- 2nd Content End -->
+        <!-- 3rd Content Start -->
+        <div class="col-12 col-lg-3 mt-2 mx-3">
+          <form class="d-flex" role="search">
+            <input style="font-size: .75rem;"
+              class="form-control me-2 bg-body-secondary border-0"
+              type="search"
+              placeholder="Search Request No, Unit No, Contract No, Customer.."
+              aria-label="Search"/>
+            <button class="btn bg-body-secondary" type="submit">
+              <img
+                src="assets/icons/filter.svg"
+                class="text-body-secondary btn-outline-primary"
+                alt=""/>
+            </button>
+          </form>
+        </div>
+        <!-- 3rd Content End -->
+        <!-- 4th Content Start -->
+        <div class=" overflow-x-auto m-3">
+            <div class="d-flex justify-content-between py-1 my-2">
+              <div class="text-center py-2 pe-1 bg-primary rounded-start-pill" style="min-width: 150px;">Number</div>
+              <div class="text-center py-2 px-1 bg-primary" style="min-width: 150px;">Contract Number</div>
+              <div class="text-center py-2 px-1 bg-primary" style="min-width: 150px;">Unit Number</div>
+              <div class="text-center py-2 px-1 bg-primary" style="min-width: 150px;">Customer</div>
+              <div class="text-center py-2 px-1 bg-primary" style="min-width: 150px;">Creation Date</div>
+              <div class="text-center py-2 px-1 bg-primary" style="min-width: 150px;">Calendar</div>
+              <div class="text-center py-2 px-1 bg-primary" style="min-width: 150px;">Start</div>
+              <div class="text-center py-2 px-1 bg-primary" style="min-width: 150px;">End</div>
+              <div class="text-center py-2 px-1 bg-primary" style="min-width: 150px;">Rent Amount</div>
+              <div class="text-center py-2 px-1 bg-primary" style="min-width: 150px;">Vacating Date</div>
+              <div class="text-center py-2 px-1 bg-primary" style="min-width: 150px;">Notice Days</div>
+              <div class="text-center py-2 px-1 bg-primary" style="min-width: 150px;">Comment</div>
+              <div class="text-center py-2 ps-1 bg-primary rounded-end-pill" style="min-width: 150px;">Status</div>
+            </div>
+            <div class="d-flex justify-content-between py-1 my-2">
+              <div class="text-center py-2 pe-1 border border-secondary-subtle border-end-0 rounded-start-pill" style="min-width: 150px;">2548</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">21</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">21</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">Ahmed Ali</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">09/03/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">Gregorien</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">09/03/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">10/11/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">50,14,00</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">10/11/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">30</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">aaaaaaa</div>
+              <div class="text-center py-2 px-3 border border-secondary-subtle border-start-0 rounded-end-pill" style="min-width: 150px;">
+                <div class="text-white bg-primary rounded-5">Approved</div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between py-1 my-2">
+              <div class="text-center py-2 pe-1 border border-secondary-subtle border-end-0 rounded-start-pill" style="min-width: 150px;">2548</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">21</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">21</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">Ahmed Ali</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">09/03/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">Gregorien</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">09/03/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">10/11/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">50,14,00</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">10/11/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">30</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">aaaaaaa</div>
+              <div class="text-center py-2 px-3 border border-secondary-subtle border-start-0 rounded-end-pill" style="min-width: 150px;">
+                <div class="text-white bg-success rounded-5">Active</div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between py-1 my-2">
+              <div class="text-center py-2 pe-1 border border-secondary-subtle border-end-0 rounded-start-pill" style="min-width: 150px;">2548</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">21</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">21</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">Ahmed Ali</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">09/03/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">Gregorien</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">09/03/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">10/11/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">50,14,00</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">10/11/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">30</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">aaaaaaa</div>
+              <div class="text-center py-2 px-3 border border-secondary-subtle border-start-0 rounded-end-pill" style="min-width: 150px;">
+                <div class="text-white bg-dark-subtle rounded-5">Cancelled</div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between py-1 my-2">
+              <div class="text-center py-2 pe-1 border border-secondary-subtle border-end-0 rounded-start-pill" style="min-width: 150px;">2548</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">21</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">21</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">Ahmed Ali</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">09/03/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">Gregorien</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">09/03/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">10/11/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">50,14,00</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">10/11/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">30</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">aaaaaaa</div>
+              <div class="text-center py-2 px-3 border border-secondary-subtle border-start-0 rounded-end-pill" style="min-width: 150px;">
+                <div class="text-white bg-primary rounded-5">Approved</div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between py-1 my-2">
+              <div class="text-center py-2 pe-1 border border-secondary-subtle border-end-0 rounded-start-pill" style="min-width: 150px;">2548</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">21</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">21</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">Ahmed Ali</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">09/03/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">Gregorien</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">09/03/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">10/11/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">50,14,00</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">10/11/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">30</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">aaaaaaa</div>
+              <div class="text-center py-2 px-3 border border-secondary-subtle border-start-0 rounded-end-pill" style="min-width: 150px;">
+                <div class="text-white bg-success rounded-5">Active</div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between py-1 my-2">
+              <div class="text-center py-2 pe-1 border border-secondary-subtle border-end-0 rounded-start-pill" style="min-width: 150px;">2548</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">21</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">21</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">Ahmed Ali</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">09/03/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">Gregorien</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">09/03/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">10/11/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">50,14,00</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">10/11/2022</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">30</div>
+              <div class="text-center py-2 px-1 border border-secondary-subtle border-end-0 border-start-0" style="min-width: 150px;">aaaaaaa</div>
+              <div class="text-center py-2 px-3 border border-secondary-subtle border-start-0 rounded-end-pill" style="min-width: 150px;">
+                <div class="text-white bg-dark-subtle rounded-5">Cancelled</div>
+              </div>
+            </div>
+        </div>
+        <!-- 4th Content End -->
+        <!-- Content End -->
+        <!-- --------------------------------------------------------------- -->
+        </div>
+        <!-- Navbar & Content End -->
+        <!-- --------------------------------------------------------------- -->
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>

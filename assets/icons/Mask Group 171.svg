@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4792" data-name="Rectangle 4792" width="16" height="16" transform="translate(5204 -13487)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_171" data-name="Mask Group 171" transform="translate(-5204 13487)" clip-path="url(#clip-path)">
+    <g id="vuesax_bold_buliding" data-name="vuesax/bold/buliding" transform="translate(5204 -13487)">
+      <g id="buliding">
+        <path id="Vector" d="M0,0H16V16H0Z" fill="none" opacity="0"/>
+        <path id="Vector-2" data-name="Vector" d="M13.833,0H.5A.5.5,0,0,0,0,.5.5.5,0,0,0,.5,1H13.833a.5.5,0,0,0,.5-.5A.5.5,0,0,0,13.833,0Z" transform="translate(0.833 14.167)" fill="#4881ff"/>
+        <path id="Vector-3" data-name="Vector" d="M9.333,0H2.667A2.384,2.384,0,0,0,0,2.667V13.333H12V2.667A2.384,2.384,0,0,0,9.333,0ZM4.667,10.167h-2a.5.5,0,0,1,0-1h2a.5.5,0,0,1,0,1Zm0-3h-2a.5.5,0,1,1,0-1h2a.5.5,0,0,1,0,1Zm0-3h-2a.5.5,0,1,1,0-1h2a.5.5,0,0,1,0,1Zm4.667,6h-2a.5.5,0,0,1,0-1h2a.5.5,0,0,1,0,1Zm0-3h-2a.5.5,0,0,1,0-1h2a.5.5,0,0,1,0,1Zm0-3h-2a.5.5,0,1,1,0-1h2a.5.5,0,0,1,0,1Z" transform="translate(2 1.333)" fill="#4881ff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "name": "ui-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/custmize.scss styles/style.css -w"
+  },
+  "author": "Omar Adel Attia Ibrahim",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "5.3.0-alpha1"
+  }
+}
